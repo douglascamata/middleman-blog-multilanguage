@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+<head>
+</head>
+<body>
+<% if is_blog_article? %>
+  <%= current_article.link_to_translated(:pt_br) %>
+<%= yield %>
+<%= current_article.url %>
+<% else %>
+<%= yield %>
+<% end %>
+</body>
+</html>
