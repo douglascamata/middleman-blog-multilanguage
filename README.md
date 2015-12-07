@@ -87,7 +87,7 @@ activate :multilanguage_blog do |m|
 end
 ```
 
-Then ensure your articles have the locale properly set, either trough front matter or through the source path.
+Then ensure your articles have the locale properly set, either through front matter or through the source path.
 
 # License
 
